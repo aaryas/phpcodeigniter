@@ -2,7 +2,7 @@
 
 require_once("Student.php");
 
-$stu = new Student('Sridhar', 'Iyer', 'A');
-$stu->show_student();
+$student= new Student('Sridhar', 'Iyer', 'A');
+$student->show_student();
 
  ?>
