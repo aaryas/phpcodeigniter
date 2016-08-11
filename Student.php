@@ -20,6 +20,10 @@ class Student {
     print $this->grade . "\n";
   }
 
+  public function set_grade(?string $grade) {
+    $this->grade = $grade;
+  }
+
 }
 
  ?>
